@@ -8,9 +8,25 @@
 </head>
 <body>
     <div class="app">
-        <h1 id="counterValue">0</h1>
+        <h1 id="counterValue" style="color: black">0</h1>
         <button id="increment">+1</button>
         <button id="decrement">-1</button>
+        <button id="add-five">+5</button>
+        <button id="subtract-five">-5</button>
+        <br/>
+
+        <label for="color-select">Change the color</label>
+        <select id="color-select" autocomplete="off">
+            <option value="BLACK" selected>Black</option>
+            <option value="RED">Red</option>
+            <option value="GREEN">Green</option>
+            <option value="BLUE">Blue</option>
+        </select>
+        <br/>
+
+        <label for="new-value">Input a new number, then press enter to change the value</label>
+        <input id="new-value" autocomplete="off">
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.min.js"></script>
